@@ -1,0 +1,1026 @@
+@keyframes opacityChange {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.addAnimation {
+  animation: opacityChange 0.5s ease 2 forwards;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body #headBar {
+    height: 17vh !important;
+  }
+  body #headBar #logo div h5 {
+    font-size: 1.2rem !important;
+  }
+  body #headBar #navBar #upperInfo {
+    left: 5.23rem !important;
+  }
+  body #headBar #navBar #lowerInfo #menuBar {
+    left: 4rem !important;
+  }
+  body #headBar #navBar #lowerInfo div #signUp i {
+    font-size: 1.2rem !important;
+  }
+  body #headBar #navBar #lowerInfo div #callUs {
+    left: 1rem !important;
+  }
+  body #headBar #navBar #lowerInfo div #callUs i {
+    font-size: 1.2rem !important;
+  }
+  body #headBar #navBar #lowerInfo div #callUs div p {
+    font-size: 0.7rem !important;
+  }
+  body #home #homeText h1 {
+    width: 33vw !important;
+  }
+  body #home #homeText p {
+    width: 25vw !important;
+  }
+  body #home #homeText button {
+    width: 12vw !important;
+  }
+  body #home img {
+    left: -8rem !important;
+  }
+  body #middleBar {
+    padding: 1.5rem 5rem !important;
+  }
+  body #middleBar div h5 {
+    font-size: 0.8rem !important;
+  }
+  body #middleBar div div a {
+    width: 13vw !important;
+  }
+  #rent section #bookingWay div i {
+    width: 7.5vw !important;
+    padding: 0 1.5rem !important;
+    font-size: 2rem !important;
+  }
+  #rent section #bookingWay div p {
+    padding: 0 0.9rem !important;
+    scale: 127% !important;
+    width: 18vw !important;
+    font-size: 0.6rem !important;
+  }
+  #rent #rentingInfo #carImg img {
+    left: -58.5rem !important;
+    scale: 67% !important;
+  }
+  #rent #rentingInfo #infoDiv {
+    padding: 4rem 0rem 0 1.5rem !important;
+  }
+  #rent #rentingInfo #infoDiv h1 {
+    font-size: 2rem !important;
+  }
+  #rent #rentingInfo #infoDiv #info div i {
+    font-size: 2.5rem !important;
+    width: 9vw !important;
+  }
+  #rent #rentingInfo #infoDiv #info div section p {
+    padding-right: 7rem !important;
+  }
+  #rent #topBrands #carOptions {
+    padding: 0 10rem !important;
+  }
+  #rent #brandsSection div .car {
+    width: 29vw !important;
+    height: 65vh !important;
+  }
+  #rent #brandsSection div .car .carImg {
+    height: 25vh !important;
+  }
+  #rent #brandsSection div .car .carImg i {
+    top: -3.8rem !important;
+  }
+  #rent #brandsSection div .car .carInfo button {
+    padding: 0 3.4rem !important;
+  }
+  #rent #brandsSection #swipe #left {
+    width: 5vw !important;
+  }
+  #rent #brandsSection #swipe #right {
+    width: 4vw !important;
+  }
+  #share h1 {
+    padding: 0 17rem !important;
+  }
+  #share #mainContent #left div img {
+    scale: 60% !important;
+    left: -9rem !important;
+    z-index: 0 !important;
+  }
+  #share #mainContent #left div section {
+    position: relative;
+    z-index: 1 !important;
+  }
+  #share #mainContent #left div section i {
+    width: 8vw !important;
+  }
+  #share #mainContent #left div section h5 {
+    width: 17vw !important;
+  }
+  #share #mainContent #car img {
+    top: 18rem !important;
+    left: -1rem !important;
+  }
+  #share #mainContent #right {
+    position: relative;
+    left: -2rem !important;
+  }
+  #share #mainContent #right div img {
+    scale: 60% !important;
+  }
+  #share #mainContent #right div section {
+    position: relative;
+    left: -2.2rem !important;
+  }
+  #share #mainContent #right div section h5 {
+    width: 14vw !important;
+    right: 6rem !important;
+  }
+  #share #mainContent #right div section i {
+    width: 8vw !important;
+    position: relative;
+    left: -2rem !important;
+  }
+  #share #specs {
+    margin: 6rem 0 5rem 0 !important;
+  }
+  #share #specs div p {
+    font-size: 1rem !important;
+  }
+  #ride #bgColor #reviewSlides {
+    transform: translateX(-101.5vw);
+  }
+  #ride #bgColor #reviewSlides #reviews div #upperPart #stars i {
+    font-size: 0.7rem !important;
+  }
+  #ride #bgColor #reviewSlides #reviews div #upperPart p {
+    font-size: 0.7rem !important;
+  }
+  #ride #bgColor #reviewSlides #reviews div #lowerPart i {
+    font-size: 6rem !important;
+    top: -6rem !important;
+    left: 11rem !important;
+  }
+  #ride #bgColor #reviewSlides #reviews div #lowerPart #customer {
+    width: 20vw !important;
+    top: -5rem !important;
+    left: 5rem !important;
+  }
+  #ride #bgColor #reviewSlides #reviews div #lowerPart #customer #custName {
+    font-size: 0.8rem !important;
+  }
+  #ride #bgColor #reviewSlides #reviews div #lowerPart #customer #custImg img {
+    width: 4.5vw !important;
+  }
+  #ride #bgColor #slider {
+    padding: 0 28rem !important;
+  }
+  #ride #bgColor #slider i {
+    font-size: 0.6rem !important;
+  }
+  #services #serContent div {
+    width: 30vw !important;
+  }
+  #services #serContent div img {
+    height: 14rem !important;
+  }
+  #services #serContent div section h3 {
+    font-size: 1.3rem !important;
+  }
+  #services #serContent div section p {
+    font-size: 0.75rem !important;
+  }
+  #services #serContent div section button {
+    padding: 1vh 3.5vw !important;
+    font-size: 1.7vw !important;
+  }
+  footer #about section {
+    width: 13vw !important;
+  }
+  footer div p {
+    width: 33vw !important;
+  }
+  footer #email h5 {
+    margin: 0 22rem !important;
+  }
+  footer #email section {
+    margin: 1rem 22rem 0 !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  body #headBar #navBar #upperInfo {
+    left: 12.37rem !important;
+  }
+  body #headBar #navBar #lowerInfo #menuBar div {
+    position: relative;
+    left: 7rem !important;
+  }
+  body #home #homeText p {
+    width: 24vw !important;
+  }
+  body #home img {
+    left: -10rem !important;
+  }
+  #rent section #bookingWay div i {
+    padding: 0 2rem !important;
+  }
+  #rent section #bookingWay div p {
+    padding: 0 2rem !important;
+    scale: 122% !important;
+  }
+  #rent #rentingInfo #infoDiv {
+    padding: 4rem 0 0 3rem !important;
+  }
+  #rent #rentingInfo #infoDiv h1 {
+    font-size: 2.3rem !important;
+  }
+  #rent #rentingInfo #infoDiv #info #deal i {
+    padding: 0 1.2rem !important;
+    font-size: 2.7rem !important;
+  }
+  #rent #rentingInfo #infoDiv #info #guarantee i {
+    font-size: 2.7rem !important;
+    padding: 0 1.7rem !important;
+  }
+  #rent #rentingInfo #infoDiv #info #support i {
+    font-size: 2.7rem !important;
+    padding: 0 1.7rem !important;
+  }
+  #rent #rentingInfo #infoDiv #info div section p {
+    padding-right: 11rem !important;
+  }
+  #rent #rentingInfo #carImg img {
+    left: -64rem !important;
+    scale: 77% !important;
+  }
+  #rent #topBrands #carOptions {
+    padding: 0 12rem !important;
+  }
+  #rent #brandsSection div .car {
+    height: 68vh !important;
+  }
+  #rent #brandsSection div .car .carImg {
+    height: 28vh !important;
+  }
+  #rent #brandsSection div .car .carImg i {
+    top: -4rem !important;
+  }
+  #rent #brandsSection div .car .carInfo button {
+    padding: 0 4.75rem !important;
+  }
+  #rent #swipe #left {
+    height: 8vh !important;
+  }
+  #rent #swipe #right {
+    height: 6vh !important;
+  }
+  #share h1 {
+    padding: 0 22rem !important;
+  }
+  #share #mainContent #left div section i {
+    width: 7vw !important;
+  }
+  #share #mainContent #left div section h5 {
+    width: 14vw !important;
+  }
+  #share #mainContent #right div section {
+    left: -4rem !important;
+  }
+  #share #mainContent #right div section i {
+    width: 7vw !important;
+    left: 0rem !important;
+  }
+  #share #mainContent #right div section h5 {
+    right: 5rem !important;
+  }
+  #share #specs {
+    margin: 4rem 0 5rem 0 !important;
+  }
+  #ride #bgColor #reviews div #upperPart #stars i {
+    font-size: 0.9rem !important;
+  }
+  #ride #bgColor #reviews div #upperPart p {
+    font-size: 0.9rem !important;
+  }
+  #ride #bgColor #reviews div #lowerPart i {
+    left: 14rem !important;
+  }
+  #ride #bgColor #reviews div #lowerPart #customer {
+    width: 15vw !important;
+    left: 8vw !important;
+  }
+  #ride #bgColor #reviews div #lowerPart #customer #custName {
+    font-size: 0.9rem !important;
+  }
+  #ride #bgColor #reviews div #lowerPart #customer #custImg img {
+    width: 4vw !important;
+  }
+  #ride #bgColor #slider {
+    padding: 0 35rem !important;
+  }
+  #services #serContent div section button {
+    padding: 1vh 3.8vw !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1535px) {
+  body #headBar {
+    height: 17vh !important;
+  }
+  body #headBar #logo div h5 {
+    font-size: 1.45rem !important;
+  }
+  body #headBar #navBar #upperInfo {
+    left: 14.3rem !important;
+  }
+  #rent section #bookingWay div i {
+    width: 6vw !important;
+  }
+  #rent section #bookingWay div p {
+    padding-left: 1rem !important;
+  }
+  #rent #rentingInfo #carImg img {
+    left: -72rem !important;
+    scale: 90% !important;
+  }
+  #rent #rentingInfo #infoDiv {
+    padding: 5rem 0rem 0 7rem !important;
+  }
+  #rent #rentingInfo #infoDiv #info div i {
+    font-size: 2.5rem !important;
+  }
+  #rent #brandsSection div .car {
+    height: 75vh !important;
+  }
+  #rent #brandsSection div .car .carImg i {
+    top: -5.7rem !important;
+  }
+  #rent #brandsSection div .car .carInfo button {
+    padding: 0 7rem !important;
+  }
+  #share h1 {
+    padding: 0 28rem !important;
+  }
+  #share #mainContent #left div section i {
+    height: 11vh !important;
+    width: 6vw !important;
+  }
+  #share #mainContent #left div section h5 {
+    width: 12vw !important;
+  }
+  #share #mainContent #left div img {
+    scale: 60% !important;
+  }
+  #share #mainContent #car img {
+    left: 0 !important;
+  }
+  #share #mainContent #right div section {
+    position: relative;
+    left: -4rem !important;
+  }
+  #share #mainContent #right div section i {
+    height: 11vh !important;
+    width: 6vw !important;
+  }
+  #share #mainContent #right div section h5 {
+    width: 10vw !important;
+  }
+  #share #mainContent #right div img {
+    scale: 60% !important;
+  }
+  #share #mainContent #right #rightLast section {
+    left: -6rem !important;
+  }
+  #share #specs {
+    margin: 10rem 0 5rem 0 !important;
+  }
+  #share #specs div p {
+    font-size: 1.2rem !important;
+  }
+  #ride #bgColor #reviews div #lowerPart {
+    height: 26vh !important;
+  }
+  #ride #bgColor #reviews div #lowerPart i {
+    font-size: 9rem !important;
+    top: -8.3rem !important;
+    left: 17rem !important;
+  }
+  #ride #bgColor #reviews div #lowerPart #customer {
+    left: 10rem !important;
+  }
+  #ride #bgColor #slider {
+    padding: 0 41rem !important;
+  }
+  #ride #bgColor #slider i {
+    font-size: 0.6rem !important;
+  }
+  footer #email h5 {
+    margin: 0 30rem !important;
+  }
+  footer #email section {
+    margin: 0 30rem !important;
+  }
+}
+body {
+  overflow-x: hidden !important;
+  font-family: Merienda;
+  margin: 0;
+  padding: 0;
+}
+body #headBar {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  height: 15.5vh;
+}
+body #headBar #logo div h5 {
+  font-size: 1.5rem;
+  font-family: Merienda;
+}
+body #headBar #logo div p {
+  font-size: 0.7rem;
+  background-color: #FF6436;
+  color: white;
+  font-family: Merienda;
+  position: relative;
+  top: -0.5rem;
+}
+body #headBar #navBar {
+  font-family: Merienda;
+  position: relative;
+  top: 4rem;
+  height: 2.8rem;
+}
+body #headBar #navBar #upperInfo {
+  position: relative;
+  top: -4rem;
+  left: 15.4rem;
+  background-color: #253241;
+  color: white;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 650%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 650%);
+}
+body #headBar #navBar #upperInfo div {
+  align-items: center;
+}
+body #headBar #navBar #upperInfo div p {
+  position: relative;
+  top: 0.5rem;
+}
+body #headBar #navBar #upperInfo #mail {
+  position: relative;
+  left: 3rem;
+}
+body #headBar #navBar #upperInfo #mail:hover {
+  cursor: pointer;
+}
+body #headBar #navBar #upperInfo #chat {
+  position: relative;
+  right: 2rem;
+  background-color: #FF6436;
+  padding: 0 0.5rem;
+}
+body #headBar #navBar #upperInfo #chat:hover {
+  cursor: pointer;
+}
+body #headBar #navBar #lowerInfo {
+  position: relative;
+  top: -2.5rem;
+}
+body #headBar #navBar #lowerInfo #menuBar {
+  align-items: center;
+  position: relative;
+  left: 7rem;
+}
+body #headBar #navBar #lowerInfo #menuBar .nav a {
+  color: black;
+  text-decoration: none;
+}
+body #headBar #navBar #lowerInfo div {
+  font-family: Merienda;
+}
+body #headBar #navBar #lowerInfo div #signUp {
+  align-items: center;
+  position: relative;
+  top: -0.2rem;
+}
+body #headBar #navBar #lowerInfo div #signUp i {
+  position: relative;
+  top: 0.2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+body #headBar #navBar #lowerInfo div #signUp h6 {
+  position: relative;
+  top: 0.5rem;
+}
+body #headBar #navBar #lowerInfo div #signUp h6:hover {
+  cursor: pointer;
+}
+body #headBar #navBar #lowerInfo div #callUs {
+  padding: 0rem 0.5rem;
+  position: relative;
+  top: -1rem;
+}
+body #headBar #navBar #lowerInfo div #callUs i {
+  position: relative;
+  top: 1rem;
+  font-size: 1.5rem;
+}
+body #headBar #navBar #lowerInfo div #callUs div h6 {
+  position: relative;
+  top: 0.5rem;
+}
+body #headBar #navBar #lowerInfo div #callUs div p {
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  margin-bottom: 0.4rem;
+}
+body #headBar #navBar #lowerInfo div #callUs:hover {
+  cursor: pointer;
+}
+body #home {
+  background-image: url(assests/RoadImg.jfif);
+  background-size: 137%;
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+  top: -1rem;
+  background-position: center, center;
+  z-index: 0;
+}
+body #home #homeText {
+  font-family: Merienda;
+  color: white;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.52);
+  -webkit-clip-path: polygon(0% 0%, 56% 0%, 86% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 56% 0%, 86% 100%, 0% 100%);
+  width: 58vw;
+  height: 90vh;
+}
+body #home #homeText h1 {
+  width: 26vw;
+}
+body #home #homeText p {
+  width: 18vw;
+}
+body #home #homeText button {
+  width: 9vw;
+  background-color: #FF6436;
+  height: 7vh;
+  color: white;
+}
+body #home img {
+  position: relative;
+  scale: 145%;
+  top: 3rem;
+  left: -11rem;
+}
+body #middleBar {
+  font-family: Merienda;
+  position: relative;
+  top: -4rem;
+  background-color: white;
+  padding: 0 10rem;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+body #middleBar div h5 {
+  font-size: 0.9rem;
+}
+body #middleBar div div a {
+  color: black;
+  background-color: white;
+  border-color: #565e64;
+  width: 9vw;
+}
+body #middleBar button {
+  width: 9vw;
+  background-color: #FF6436;
+  height: 4.8vh;
+  position: relative;
+  top: 0.1rem;
+  color: white;
+}
+body #rent section p {
+  color: #717171;
+  font-weight: 600;
+}
+body #rent section #bookingWay div i {
+  color: #FF6436;
+  background-color: white;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+  width: 5.5vw;
+  height: 11vh;
+  display: inline-flex;
+  font-size: 2.3rem;
+  align-items: center;
+  padding: 0 1.6rem;
+}
+body #rent section #bookingWay div p {
+  text-align: left;
+  font-weight: 100;
+  color: black;
+}
+body #rent section #bookingWay #chooseDate i {
+  color: white;
+  background-color: #FF6436;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+  width: 5.5vw;
+  height: 11vh;
+  display: inline-flex;
+  font-size: 2.3rem;
+  align-items: center;
+  padding: 0 1.6rem;
+}
+body #rent #rentingInfo #carImg img {
+  -webkit-box-reflect: right;
+  position: relative;
+  left: -76rem;
+  scale: 99%;
+  padding-top: 5rem;
+}
+body #rent #rentingInfo #infoDiv {
+  padding: 5rem 0rem 0 10rem;
+}
+body #rent #rentingInfo #infoDiv p {
+  font-weight: 100;
+}
+body #rent #rentingInfo #infoDiv #info div section p {
+  padding-right: 15rem;
+  color: black;
+}
+body #rent #rentingInfo #infoDiv #info #deal i {
+  width: 6vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 3rem;
+  padding: 0 1.1rem;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+  color: #FF6436;
+  height: 6rem;
+}
+body #rent #rentingInfo #infoDiv #info #guarantee i {
+  width: 6vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 3rem;
+  padding: 0 1.4rem;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+  color: #FF6436;
+  height: 6rem;
+}
+body #rent #rentingInfo #infoDiv #info #support i {
+  width: 6vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 3rem;
+  padding: 0 1.4rem;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+  color: #FF6436;
+  height: 6rem;
+}
+body #rent #topBrands #carOptions {
+  padding: 0 15rem;
+}
+body #rent #topBrands #carOptions .selected {
+  background-color: #FF6436;
+}
+body #rent #topBrands #carOptions .selected p {
+  color: white;
+}
+body #rent #topBrands #carOptions button {
+  width: 10vw;
+  background-color: #E2E2E2;
+  color: black;
+  height: 5vh;
+}
+body #rent #topBrands #carOptions button img {
+  width: 35%;
+}
+body #rent #topBrands #carOptions button p {
+  color: black;
+}
+body #rent #brandsSection #slider {
+  overflow-x: hidden;
+}
+body #rent #brandsSection #slider div {
+  transition: transform 0.5s ease;
+}
+body #rent #brandsSection #slider div .car {
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  width: 30vw;
+  height: 73vh;
+}
+body #rent #brandsSection #slider div .car #liked i {
+  color: #FF6436;
+}
+body #rent #brandsSection #slider div .car .carImg {
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(132.8deg, rgba(200, 200, 200, 0) 1.05%, rgba(255, 255, 255, 0.26) 45.98%, rgba(214, 214, 214, 0.54) 97.98%);
+  height: 36vh;
+  display: flex;
+  align-items: center;
+}
+body #rent #brandsSection #slider div .car .carImg i {
+  position: relative;
+  top: -6.3rem;
+  right: 2.7rem;
+}
+body #rent #brandsSection #slider div .car .carImg i:hover {
+  cursor: pointer;
+}
+body #rent #brandsSection #slider div .car .carInfo p {
+  color: #211E1E;
+  font-weight: 100;
+}
+body #rent #brandsSection #slider div .car .carInfo p .price {
+  color: #FF6436;
+  font-size: 1.6rem;
+}
+body #rent #brandsSection #slider div .car .carInfo button {
+  background-color: #FF6436;
+  padding: 0 8.25rem;
+}
+body #rent #brandsSection #swipe #left {
+  width: 4vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #rent #brandsSection #swipe #left:hover {
+  cursor: pointer;
+}
+body #rent #brandsSection #swipe #right {
+  width: 3vw;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+}
+body #rent #brandsSection #swipe #right:hover {
+  cursor: pointer;
+}
+body #share p {
+  color: #717171;
+}
+body #share h1 {
+  padding: 0 32rem;
+}
+body #share #mainContent #left div {
+  align-items: center;
+}
+body #share #mainContent #left div img {
+  scale: 70%;
+}
+body #share #mainContent #left div section i {
+  height: 10vh;
+  background-color: white;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF6436;
+  font-size: 2rem;
+}
+body #share #mainContent #left div img {
+  position: relative;
+  left: -4rem;
+}
+body #share #mainContent #left div section h5 {
+  width: 10vw;
+}
+body #share #mainContent #left #leftLast section {
+  position: relative;
+  top: 4rem;
+}
+body #share #mainContent #car img {
+  transform: rotateZ(90deg);
+  scale: 310%;
+  position: relative;
+  top: 22rem;
+  left: -2rem;
+}
+body #share #mainContent #right div {
+  align-items: center;
+}
+body #share #mainContent #right div img {
+  scale: 70%;
+}
+body #share #mainContent #right div section i {
+  height: 10vh;
+  background-color: white;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF6436;
+  font-size: 2rem;
+}
+body #share #mainContent #right div section {
+  position: relative;
+  left: -1rem;
+}
+body #share #mainContent #right div section h5 {
+  width: 9vw;
+  text-align: right;
+  position: relative;
+  right: 4rem;
+}
+body #share #mainContent #right #rightLast section {
+  position: relative;
+  left: -3rem;
+  top: 4rem;
+}
+body #share #specs {
+  margin: 13rem 0 5rem 0;
+}
+body #share #specs div {
+  height: 8vh;
+  width: 17vw;
+  background-color: #D9D9D9;
+  align-items: center;
+}
+body #share #specs div .icon {
+  background-color: white;
+  color: black !important;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+body #share #specs div p {
+  color: black;
+}
+body #share #specs div .fa-check {
+  color: #FF6436;
+}
+body #ride {
+  background-image: url("assests/RoadImg.jfif");
+  background-size: cover;
+  background-position: center, center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  overflow-x: hidden;
+}
+body #ride #bgColor {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 90vh;
+}
+body #ride #bgColor #headP {
+  color: white;
+}
+body #ride #bgColor h1 {
+  color: white;
+}
+body #ride #bgColor #comma p {
+  width: 3vw;
+}
+body #ride #bgColor #comma i {
+  color: #FF6436;
+}
+body #ride #bgColor #reviewSlides {
+  transition: transform 0.5s ease;
+}
+body #ride #bgColor #reviewSlides #reviews div {
+  width: 31vw;
+}
+body #ride #bgColor #reviewSlides #reviews div #upperPart {
+  background-color: #253241;
+  color: #D9D9D9;
+  position: relative;
+  z-index: 1;
+}
+body #ride #bgColor #reviewSlides #reviews div #upperPart #stars i {
+  color: #FF6436;
+}
+body #ride #bgColor #reviewSlides #reviews div #lowerPart i {
+  color: #253241;
+  font-size: 9rem;
+  z-index: 0;
+  position: relative;
+  top: -8.3rem;
+  left: 20rem;
+}
+body #ride #bgColor #reviewSlides #reviews div #customer {
+  width: 15vw;
+  position: relative;
+  top: -7rem;
+  left: 12rem;
+}
+body #ride #bgColor #reviewSlides #reviews div #customer #custName {
+  color: white;
+}
+body #ride #bgColor #reviewSlides #reviews div #customer #custImg img {
+  width: 4vw;
+}
+body #ride #bgColor #reviewSlides #reviews #middleRev #upperPart {
+  background-color: #D9D9D9;
+  color: #253241;
+}
+body #ride #bgColor #reviewSlides #reviews #middleRev #lowerPart i {
+  color: white;
+}
+body #ride #bgColor #slider {
+  position: relative;
+  top: -3rem;
+  padding: 0 44rem;
+}
+body #ride #bgColor #slider i {
+  font-size: 0.8rem;
+}
+body #ride #bgColor #slider i:hover {
+  cursor: pointer;
+}
+body #ride #bgColor #slider .active {
+  color: #FF6436;
+}
+body #ride #bgColor #slider .unactive {
+  color: white;
+}
+body #services #serContent div {
+  width: 30vw;
+}
+body #services #serContent div img {
+  height: 35vh;
+}
+body #services #serContent div section h5 {
+  color: #FF6436;
+}
+body #services #serContent div section p {
+  font-size: 0.95rem;
+}
+body #services #serContent div section button {
+  background-color: #FF6436;
+  padding: 1vh 4.63vw;
+  font-size: 1.3vw;
+  color: white;
+}
+body footer {
+  overflow-x: hidden;
+  background-color: #253241;
+  color: white;
+}
+body footer div #logo {
+  width: 9vw;
+}
+body footer div #logo img {
+  width: 9vw;
+}
+body footer div #logo div p {
+  font-size: 0.9vw;
+  background-color: #FF6436;
+  width: 9vw !important;
+}
+body footer div p {
+  width: 24vw;
+}
+body footer div section i:hover {
+  cursor: pointer;
+}
+body footer #about {
+  width: 40vw;
+  padding-top: 24vh;
+}
+body footer #about section {
+  width: 12vw;
+}
+body footer #email h5 {
+  margin: 0 35rem 0.5rem;
+}
+body footer #email section {
+  margin: 0rem 35rem;
+}
+body footer #email section div {
+  text-align: left;
+  background-color: #D9D9D9;
+}
+body footer #email section div input {
+  color: black;
+}
+body footer #email section i {
+  background-color: #FF6436;
+  height: 3.5rem;
+  align-items: center;
+}
+body footer #email section i:hover {
+  cursor: pointer;
+}
+body footer #bottom {
+  border-color: rgba(255, 255, 255, 0.33);
+}
+body footer #bottom span {
+  color: #FF6436;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,210 @@
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    body{
+        #headBar{
+            #navBar{
+                #upperInfo{
+                    left: 12.37rem !important;
+                }
+                #lowerInfo{
+                    #menuBar{
+                        div{
+                            position: relative;
+                            left: 7rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #home{
+            #homeText{
+                p{
+                    width: 24vw !important;
+                }
+            }
+            img{
+                left: -10rem !important;
+            }
+        }
+    }
+
+    #rent{
+        section{
+            #bookingWay{
+                div{
+                    i{
+                        padding: 0 2rem !important;
+                    }
+                    p{
+                        padding: 0 2rem !important;
+                        scale: 122% !important;
+                    }
+                }
+            }
+        }
+
+        #rentingInfo{
+            #infoDiv{
+                padding: 4rem 0 0 3rem !important;
+                h1{
+                    font-size: 2.3rem !important;
+                }
+                #info{
+                    #deal{
+                        i{
+                            padding: 0 1.2rem !important;
+                            font-size: 2.7rem !important;
+                        }
+                    }
+                    #guarantee{
+                        i{
+                            font-size: 2.7rem !important;
+                            padding: 0 1.7rem !important;
+                        }
+                    }
+                    #support{
+                        i{
+                            font-size: 2.7rem !important;
+                            padding: 0 1.7rem !important;
+                        }
+                    }
+                    div{
+                        section{
+                            p{
+                                padding-right: 11rem !important;
+                            }
+                        }
+                    }
+                }
+            }
+            #carImg{
+                img {
+                    left: -64rem !important;
+                    scale: 77% !important;
+                }
+            } 
+        }
+
+        #topBrands{
+            #carOptions{
+                padding: 0 12rem !important;
+            }
+        }
+
+        #brandsSection{
+            div{
+                .car{
+                    height: 68vh !important;
+                    .carImg{
+                        height: 28vh !important;
+                        i{
+                            top: -4rem !important;
+                        }
+                    }
+                    .carInfo{
+                        button{
+                            padding: 0 4.75rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #swipe{
+            #left{
+                height: 8vh !important;
+            }
+            #right{
+                height: 6vh !important;
+            }
+        }
+    }
+
+    #share{
+        h1{
+            padding: 0 22rem !important;
+        }
+        #mainContent{
+            #left{
+                div{
+                    section{
+                        i {
+                            width: 7vw !important;
+                        }
+                        h5{
+                            width: 14vw !important;
+                        }
+                    } 
+                } 
+            } 
+            #right{
+                div{
+                    section {
+                        left: -4rem !important;
+                        i{
+                            width: 7vw !important;
+                            left: 0rem !important;
+                        }
+                        h5{
+                            right: 5rem !important;
+                        }
+                    }
+                } 
+            } 
+        } 
+        #specs{
+            margin: 4rem 0 5rem 0 !important;
+        }
+    } 
+
+    #ride{
+        #bgColor{
+            #reviews{
+                div{
+                    #upperPart{
+                        #stars{
+                            i{
+                                font-size: 0.9rem !important;
+                            }
+                        }
+                        p{
+                            font-size: 0.9rem !important;
+                        }
+                    }
+                    #lowerPart{
+                        i{
+                            left: 14rem !important;
+                        }
+                        #customer{
+                            width: 15vw !important;
+                            left: 8vw !important;
+                            #custName{
+                                font-size: 0.9rem !important;
+                            }
+                            #custImg{
+                                img{
+                                    width: 4vw !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #slider{
+                padding: 0 35rem !important;
+            }
+        }
+    }
+
+    #services{
+        #serContent{
+            div{
+                section{
+                    button{
+                        padding: 1vh 3.8vw !important;
+                    }
+                }
+            }
+        }
+    }
+}

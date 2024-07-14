@@ -1,0 +1,724 @@
+@mixin fontFam(){
+    font-family: Merienda;
+}
+
+@mixin halfDown(){
+    position: relative;
+    top: 0.5rem;
+}
+
+@mixin rentingStepsBgNColors($bgColor, $color){
+    color: $color;
+    background-color: $bgColor;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+    width: 5.5vw;
+    height: 11vh;
+    display: inline-flex;
+    font-size: 2.3rem;
+    align-items: center;
+    padding: 0 1.6rem;
+}
+
+@mixin rentingInfo($padding){
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 3rem;
+    padding: $padding;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.25);
+    color: #FF6436;
+    height: 6rem;
+}
+
+@mixin sharePageRightLeft(){
+    div{
+        align-items: center;
+        img {
+            scale: 70%;
+        }
+        section{
+            i{
+                height: 10vh;
+                background-color: white;
+                box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+                width: 5vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FF6436;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@keyframes opacityChange {
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
+
+.addAnimation{
+    animation: opacityChange 0.5s ease 2 forwards;
+}
+
+@import "responsiveness/largeScreen" ;
+@import "responsiveness/xlScreen" ;
+@import "responsiveness/xxlScreens" ;
+
+body{
+    overflow-x:hidden !important;
+    @include fontFam() ;
+    margin: 0;
+    padding: 0;
+    #headBar{
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        height: 15.5vh;
+        #logo{
+            div{
+                h5{
+                    font-size: 1.50rem;
+                    @include fontFam() ;
+                }
+                p{
+                    font-size: 0.7rem;
+                    background-color: #FF6436;
+                    color: white;
+                    @include fontFam() ;
+                    position: relative;
+                    top: -0.5rem ;
+                }
+            }
+        }
+
+        #navBar{
+            @include fontFam() ;
+            position: relative;
+            top: 4rem;
+            height: 2.8rem;
+
+            #upperInfo {
+                position: relative;
+                top: -4rem;
+                left: 15.4rem;
+                background-color: #253241;
+                color: white;
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 650%);
+
+                div{
+                    align-items: center;
+                    p{
+                        @include halfDown();
+                    }
+                }
+
+                #mail{
+                    position: relative;
+                    left: 3rem;
+                }
+                #mail:hover{
+                    cursor: pointer;
+                }
+
+                #chat{
+                    position: relative;
+                    right: 2rem;
+                    background-color: #FF6436;
+                    padding: 0 0.5rem;
+                }
+                #chat:hover{
+                    cursor: pointer;
+                }
+            }
+
+            #lowerInfo{
+                position: relative;
+                top: -2.5rem;
+                #menuBar{
+                    align-items: center;
+                    position: relative;
+                    left: 7rem;
+                    .nav{
+                        a{
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                div{
+                    @include fontFam() ;
+                    #signUp{
+                        align-items: center;
+                        position: relative;
+                        top: -0.2rem ;
+                        i{
+                            position: relative;
+                            top: 0.2rem;
+                            font-weight: 600;
+                            font-size: 1.5rem;
+                        }
+                        h6 {
+                            position: relative;
+                            top: 0.5rem;
+                        }
+                        h6:hover{
+                            cursor: pointer;
+                        }
+                    }
+                    #callUs {
+                        padding: 0rem 0.5rem;
+                        position: relative;
+                        top: -1rem;
+                        i{
+                            position: relative;
+                            top: 1rem;
+                            font-size: 1.5rem;
+                        }
+                        div{
+                            h6 {
+                                position: relative;
+                                top: 0.5rem;
+                            }
+                            p{
+                                font-weight: 600;
+                                letter-spacing: 2.5px;
+                                margin-bottom: 0.4rem;
+                            }
+                        }
+                    }
+
+                    #callUs:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    #home{
+        // overflow-x: hidden;
+        background-image: url(assests/RoadImg.jfif);
+        background-size: 137%;
+        background-repeat: no-repeat;
+        height: 90vh;
+        position: relative;
+        top: -1rem;
+        background-position: center, center;
+        z-index: 0;
+        #homeText {
+            @include fontFam();
+            color: white;
+            position: relative;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.52);
+            clip-path: polygon(0% 0%, 56% 0%, 86% 100%, 0% 100%);
+            width: 58vw;
+            height: 90vh;
+            h1{
+                width: 26vw;
+            }
+            p{
+                width: 18vw;
+            }
+            button{
+                width: 9vw;
+                background-color: #FF6436;
+                height: 7vh;
+                color: white;
+            }
+        }
+        img {
+            position: relative;
+            scale: 145%;
+            top: 3rem;
+            left: -11rem;
+            // background-color: pink;
+        }
+    }
+
+    #middleBar{
+        @include fontFam();
+        position: relative;
+        top: -4rem;
+        background-color: white;
+        padding: 0 10rem;
+        box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.25);
+
+        div{
+            h5{
+                font-size: 0.9rem;
+            }
+            div{
+                a{
+                    color: black;
+                    background-color: white;
+                    border-color: #565e64;
+                    width: 9vw;
+                }
+            }
+        }
+
+        button{
+            width: 9vw;
+            background-color: #FF6436;
+            height: 4.8vh;
+            position: relative;
+            top: 0.1rem;
+            color: white;
+        }
+    }
+
+    #rent{
+        section{
+            p{
+                color: #717171;
+                font-weight: 600;
+            }
+            #bookingWay{
+                div{
+                    i{
+                        // color: #FF6436;
+                        @include rentingStepsBgNColors(white, #FF6436) ;
+                        // background-color: white;
+                        // box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.25), 0px -1px 1px -1px rgba(0,0,0,0.25), 0px 0px 2px -1px rgba(0,0,0,0.25), 0px 0px 2px 0px rgba(0,0,0,0.25);
+                        // width: 5vw;
+                        // height: 5vh;
+                        // align-items: center;
+                        // display: inline-flex;
+                    }
+                    p{
+                        text-align: left;
+                        font-weight: 100;
+                        color: black;
+                    }
+                }
+                #chooseDate{
+                    i{
+                        @include rentingStepsBgNColors(#FF6436, white) ;
+                    }
+                }
+            }
+        }
+
+        #rentingInfo{
+            #carImg{
+                img{
+                    -webkit-box-reflect: right;
+                    position: relative;
+                    left: -76rem;
+                    scale: 99%;
+                    padding-top: 5rem ;
+                }
+            }
+            #infoDiv{
+                padding: 5rem 0rem 0 10rem;
+                p{
+                    font-weight: 100;
+                }
+                #info{
+                    div{
+                        section{
+                            p{
+                                padding-right: 15rem;
+                                color: black;
+                            }
+                        }
+                    }
+                    #deal{
+                        i{
+                            @include rentingInfo(0 1.1rem) ;
+                        }
+                    }
+                    #guarantee{
+                        i{
+                            @include rentingInfo(0 1.4rem);
+                        }
+                    }
+                    #support{
+                        i{
+                            @include rentingInfo(0 1.4rem);
+                        }
+                    }
+                }
+            }
+        }
+
+        #topBrands{
+            #carOptions{
+                padding: 0 15rem;
+                .selected{
+                    background-color: #FF6436;
+                    p{
+                        color: white;
+                    }
+                }
+                button{
+                    width: 10vw;
+                    background-color: #E2E2E2;
+                    color: black;
+                    height: 5vh;
+                    img{
+                        width: 35%;
+                    }
+                    p{
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        #brandsSection{
+            #slider{
+                overflow-x: hidden;
+                // transition: transform 0.5s ease;
+                div{
+                    transition: transform 0.5s ease;
+
+                    .car{
+                        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+                        width: 30vw;
+                        height: 73vh;
+                        #liked{
+                            i{
+                                color: #FF6436;
+                            }
+                        }
+                        .carImg {
+                            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.25);
+                            background: linear-gradient(132.8deg, rgba(200, 200, 200, 0) 1.05%, rgba(255, 255, 255, 0.26) 45.98%, rgba(214, 214, 214, 0.54) 97.98%);
+                            height: 36vh;
+                            display: flex;
+                            align-items: center;
+                            i {
+                                position: relative;
+                                top: -6.3rem;
+                                right: 2.7rem;
+                            }
+                            i:hover{
+                                cursor: pointer;
+                            }
+                        }
+                        .carInfo{
+                            p{
+                                color: #211E1E;
+                                // font-size: 0.7rem;
+                                font-weight: 100;
+                                .price{
+                                    color: #FF6436;
+                                    font-size: 1.6rem;
+                                }
+                            }
+                            button{
+                                background-color: #FF6436;
+                                padding: 0 8.25rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #swipe{
+                #left {
+                    width: 4vw;
+                    height: 8vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                #left:hover{
+                    cursor: pointer;
+                }
+                #right {
+                    width: 3vw;
+                    height: 6vh;
+                    align-items: center;
+                    justify-content: center;
+                }
+                #right:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    #share{
+        p{
+            color: #717171;
+        }
+        h1{
+            padding: 0 32rem;
+        }
+        #mainContent{
+            #left{
+                // width: 40vw;
+                @include sharePageRightLeft() ;
+                div{
+                    img{
+                        position: relative;
+                        left: -4rem;
+                    }
+                    section{
+                        h5 {
+                            width: 10vw;
+                        }
+                    } 
+                }
+                #leftLast{
+                    section {
+                        position: relative;
+                        top: 4rem;
+                    }
+                } 
+            }
+            #car{
+                img {
+                    transform: rotateZ(90deg);
+                    scale: 310%;
+                    position: relative;
+                    top: 22rem;
+                    left: -2rem
+                }
+            }
+            #right{
+                @include sharePageRightLeft() ;
+                div{
+                    section{
+                        position: relative;
+                        left: -1rem ;
+                        h5 {
+                            width: 9vw;
+                            text-align: right;
+                            position: relative; 
+                            right: 4rem;
+                        }
+                    } 
+                } 
+                #rightLast{
+                    section{
+                        position: relative;
+                        left: -3rem;
+                        top: 4rem;
+                    }
+                }
+            } 
+        }
+        #specs{
+            margin: 13rem 0 5rem 0;
+            div {
+                height: 8vh;
+                width: 17vw;
+                background-color: #D9D9D9;
+                align-items: center;
+                .icon{
+                    background-color: white;
+                    color: black !important;
+                    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+                }
+                p{
+                    color: black;
+                }
+                .fa-check{
+                    color: #FF6436;
+                }
+            }
+        } 
+    }
+
+    #ride{
+        background-image: url("assests/RoadImg.jfif");
+        background-size: cover;
+        background-position: center, center;
+        background-repeat: no-repeat;
+        height: 90vh;
+        overflow-x: hidden;
+        #bgColor{
+            background-color: rgba(0, 0, 0, 0.6);
+            height: 90vh;
+            #headP{
+                color: white;
+            }
+            h1{
+                color: white;
+            }
+            #comma{
+                p{
+                    width: 3vw;
+                }
+                i{
+                    color: #FF6436;
+                }
+            }
+
+            #reviewSlides{
+                // transform: translateX(-99.5vw);
+                transition: transform 0.5s ease;
+                #reviews{
+                    div{
+                        width: 31vw;
+                        #upperPart{
+                            background-color: #253241;
+                            color: #D9D9D9;
+                            position: relative;
+                            z-index: 1;
+                            #stars{
+                                i{
+                                    color: #FF6436;
+                                }
+                            }
+                        }
+                        #lowerPart i {
+                            color: #253241;
+                            font-size: 9rem;
+                            z-index: 0;
+                            position: relative;
+                            top: -8.3rem;
+                            left: 20rem;
+                        }
+                        #customer{
+                            width: 15vw;
+                            position: relative;
+                            top: -7rem;
+                            left: 12rem;
+                            #custName{
+                                color: white;
+                            }
+                            #custImg{
+                                img{
+                                    width: 4vw;
+                                }
+                            }
+                        }
+                    }
+                    #middleRev{
+                        #upperPart{
+                            background-color: #D9D9D9;
+                            color: #253241;
+                        }
+                        #lowerPart i {
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            #slider {
+                position: relative;
+                top: -3rem;
+                padding: 0 44rem;
+                i{
+                    font-size: 0.8rem;
+                }
+                i:hover{
+                    cursor: pointer;
+                }
+                .active{
+                    color: #FF6436;
+                }
+                .unactive{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    #services{
+        #serContent{
+            div{
+                width: 30vw;
+                img{
+                    height: 35vh;
+                }
+                section{
+                    h5{
+                        color: #FF6436;
+                    }
+                    p{
+                        font-size: 0.95rem;
+                    }
+                    button {
+                        background-color: #FF6436;
+                        padding: 1vh 4.63vw;
+                        font-size: 1.3vw;
+                        color: white;
+                    }
+                }
+            }
+        } 
+    }
+
+    footer{
+        overflow-x: hidden;
+        background-color: #253241;
+        color: white;
+        div{
+            #logo{
+                width: 9vw;
+                img{
+                    width: 9vw;
+                }
+                div{
+                    p{
+                        font-size: 0.9vw;
+                        background-color: #FF6436;
+                        width: 9vw !important;
+                    }
+                }
+            }
+            p{
+                width: 24vw;
+            }
+            section{
+                i:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+        #about{
+            width: 40vw;
+            padding-top: 24vh;
+            section{
+                width: 12vw;
+            }
+        }
+
+        #email{
+            h5{
+                margin: 0 35rem 0.5rem;
+            }
+            section{
+                margin: 0rem 35rem;
+                div{
+                    text-align: left;
+                    background-color: #D9D9D9;
+                    input{
+                        color: black;
+                    }
+                }
+                i{
+                    background-color: #FF6436;
+                    height: 3.5rem;
+                    align-items: center;
+                }
+                i:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        #bottom{
+            border-color: rgba(255, 255, 255, 0.33);
+            span{
+                color: #FF6436;
+            }
+        }
+    }
+
+}

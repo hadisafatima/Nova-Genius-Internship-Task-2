@@ -1,0 +1,312 @@
+@media screen and (min-width : 992px) and (max-width: 1200px) {
+    body{
+        #headBar{
+            height: 17vh !important;
+            #logo{
+                div{
+                    h5{
+                        font-size: 1.2rem !important;
+                    }
+                } 
+            } 
+    
+            #navBar{
+                #upperInfo{
+                    left: 5.23rem !important;
+                }
+                #lowerInfo{
+                    #menuBar{
+                        left: 4rem !important;
+                    }
+
+                    div{
+                        #signUp{
+                            i{
+                                font-size: 1.2rem !important;
+                            }
+                        }
+                        #callUs{
+                            left: 1rem !important;
+                            i{
+                                font-size: 1.2rem !important;
+                            }
+                            div{
+                                p{
+                                    font-size: 0.7rem !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+
+        #home{
+            #homeText{
+                h1{
+                    width: 33vw !important;
+                }
+                p{
+                    width: 25vw !important;
+                }
+                button{
+                    width: 12vw !important;
+                }
+            }
+            img{
+                left: -8rem !important;
+            }
+        }
+
+        #middleBar{
+            padding: 1.5rem 5rem !important;
+            div{
+                h5{
+                    font-size: 0.8rem !important;
+                }
+                div{
+                    a{
+                        width: 13vw !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #rent{
+        section{
+            #bookingWay{
+                div{
+                    i{
+                        width: 7.5vw !important;
+                        padding: 0 1.5rem !important;
+                        font-size: 2rem !important;
+                    }
+                    p{
+                        padding: 0 0.9rem !important;
+                        scale: 127% !important;
+                        width: 18vw !important;
+                        font-size: 0.6rem !important;
+                    }
+                }
+            }
+        }
+
+        #rentingInfo{
+            #carImg{
+                img{
+                    left: -58.5rem !important;
+                    scale: 67% !important;
+                }
+            }
+            #infoDiv{
+                padding: 4rem 0rem 0 1.5rem !important;
+                h1{
+                    font-size: 2rem !important;
+                }
+                #info{
+                    div{
+                        i{
+                            font-size: 2.5rem !important;
+                            width: 9vw !important;
+                        }
+                        section{
+                            p{
+                                padding-right: 7rem !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #topBrands{
+            #carOptions{
+                padding: 0 10rem !important;
+            }
+        }
+
+        #brandsSection{
+            div{
+                .car{
+                    width: 29vw !important;
+                    height: 65vh !important;
+                    .carImg{
+                        height: 25vh !important;
+                        i{
+                            top: -3.8rem !important;
+                        }
+                    }
+                    .carInfo{
+                        button{
+                            padding: 0 3.4rem !important;
+                        }
+                    }
+                }
+            }
+            #swipe{
+                #left{
+                    width: 5vw !important;
+                }
+                #right{
+                    width: 4vw !important;
+                }
+            }
+        }
+    }
+
+    #share{
+        h1{
+            padding: 0 17rem !important;
+        }
+        #mainContent{
+            #left{
+                div{
+                    img{
+                        scale: 60% !important;
+                        left: -9rem !important;
+                        z-index: 0 !important;
+                    }
+                    section{
+                        position: relative;
+                        z-index: 1 !important;
+                        i{
+                            width: 8vw !important;
+                        }
+                        h5{
+                            width: 17vw !important;
+                        }
+                    }
+                }
+            }
+            #car{
+                img{
+                    top: 18rem !important;
+                    left: -1rem !important;
+                }
+            }
+            #right{
+                position: relative;
+                left: -2rem !important;
+                div{
+                    img{
+                        scale: 60% !important;
+                    }
+                    section{
+                        position: relative;
+                        left: -2.2rem !important;
+                        h5 {
+                            width: 14vw !important;
+                            right: 6rem !important;
+                        }
+                        i{
+                            width: 8vw !important;
+                            position: relative;
+                            left: -2rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #specs{
+            margin: 6rem 0 5rem 0 !important;
+            div{
+                p {
+                    font-size: 1rem !important;
+                }
+            } 
+        } 
+    }
+
+    #ride{
+        #bgColor{
+            #reviewSlides{
+                transform: translateX(-101.5vw);
+                #reviews{
+                    div{
+                        #upperPart{
+                            #stars{
+                                i{
+                                    font-size: 0.7rem !important;
+                                }
+                            }
+                            p{
+                                font-size: 0.7rem !important;
+                            }
+                        }
+                        #lowerPart{
+                            i{
+                                font-size: 6rem !important;
+                                top: -6rem !important;
+                                left: 11rem !important;
+                            }
+                            #customer{
+                                width: 20vw !important;
+                                top: -5rem !important;
+                                left: 5rem !important;
+                                #custName{
+                                    font-size: 0.8rem !important;
+                                }
+                                #custImg{
+                                    img{
+                                        width: 4.5vw !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #slider{
+                padding: 0 28rem !important;
+                i{
+                    font-size: 0.6rem !important;
+                }
+            }
+        }
+    }
+
+    #services{
+        #serContent{
+            div{
+                width: 30vw !important;
+                img{
+                    height: 14rem !important;
+                }
+                section{
+                    h3{
+                        font-size: 1.3rem !important;
+                    }
+                    p{
+                        font-size: 0.75rem !important;
+                    }button {
+                        padding: 1vh 3.5vw !important;
+                        font-size: 1.7vw !important;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        #about{
+            section{
+                width: 13vw !important;
+            }
+        }
+        div{
+            p{
+                width: 33vw !important  ;
+            }
+        }
+        #email{
+            h5{
+                margin: 0 22rem !important;
+            }
+            section{
+                margin: 1rem 22rem 0 !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+@media screen and (min-width:1400px) and (max-width: 1535px) {
+    body{
+        #headBar{
+            height: 17vh !important;
+            #logo{
+                div{
+                    h5{
+                        font-size: 1.45rem !important;
+                    }
+                } 
+            } 
+
+            #navBar{
+                #upperInfo{
+                    left: 14.3rem !important;
+                }
+            }
+        }   
+    }
+
+    #rent{
+        section{
+            #bookingWay{
+                div{
+                    i{
+                        width: 6vw !important;
+                    }
+                    p{
+                        padding-left: 1rem !important;
+                    }
+                }
+            }
+        }
+
+        #rentingInfo{
+            #carImg{
+                img{
+                    left:  -72rem !important;
+                    scale: 90% !important;
+                }
+            }
+            #infoDiv{
+                padding: 5rem 0rem 0 7rem !important;
+                #info{
+                    div{
+                        i{
+                            font-size: 2.5rem !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        #brandsSection{
+            div{
+                .car{
+                    height: 75vh !important;
+                    .carImg{
+                        i{
+                            top: -5.7rem !important;
+                        }
+                    }
+                    .carInfo{
+                        button{
+                            padding: 0 7rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #share{
+        h1{
+            padding: 0 28rem !important;
+        }
+        #mainContent{
+            #left{
+                div{
+                    section{
+                        i{
+                            height: 11vh !important;
+                            width: 6vw !important;
+                        }
+                        h5{
+                            width: 12vw !important;
+                        }
+                    }
+                    img{
+                        // left: -6rem !important;
+                        scale: 60% !important;
+                    }
+                }
+            }
+            #car{
+                img{
+                    left: 0 !important;
+                }
+            }
+            #right{
+                div{
+                    section{
+                        position: relative;
+                        left: -4rem !important;
+                        i{
+                            height: 11vh !important;
+                            width: 6vw !important;
+                        }
+                        h5{
+                            width: 10vw !important;
+                        }
+                    }
+                    img{
+                        scale: 60% !important;
+                    }
+                }
+                #rightLast{
+                    section{
+                        left: -6rem !important;
+                    }
+                }
+            }
+        }
+
+        #specs{
+            margin: 10rem 0 5rem 0 !important;
+            div{
+                p {
+                    font-size: 1.2rem !important;
+                }
+            } 
+        } 
+    }
+
+    #ride{
+        #bgColor{
+            #reviews{
+                div{
+                    #lowerPart{
+                        height: 26vh !important;
+                        i{
+                            font-size: 9rem !important;
+                            top: -8.3rem !important;
+                            left: 17rem !important;
+                        }
+                        #customer{
+                            left: 10rem !important;
+                        }
+                    }
+                }
+            }
+            #slider{
+                padding: 0 41rem !important;
+                i{
+                    font-size: 0.6rem !important;
+                }
+            }
+        }
+    }
+
+    footer{
+        #email{
+            h5{
+                margin: 0 30rem !important;
+            }
+            section{
+                margin: 0 30rem !important;
+            }
+        }
+    } 
+}
